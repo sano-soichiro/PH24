@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$main_c : #68a0f3;
+$moji : #BECACD;
+
+.title{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        .info{
+            margin-top: 20px;
+            margin-bottom: 40px;
+            .info_name{
+                color: $moji;
+                text-align: center;
+            }
+            .data{
+                width: 300px;
+                margin-top: 10px;
+                border-bottom: 3px solid black;
+                text-align: center;
+            }
+        }
+
+        .button{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            .register_btn{
+                button{
+                    margin-top: 20px;
+                    color: white;
+                    border: none;
+                    background-color: $main_c;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100px;
+                    height: 40px;
+                    transition: 0.5s;
+                    font-size: 20px;
+                    font-weight: 10px;
+                    &:hover{
+                        background-color: rgb(187, 182, 182);
+                        color: white;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .back_btn{
+                button{
+                    border: solid 3px $main_c;
+                    background-color: white;
+                    margin-top: 20px;
+                    color: $main_c;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100px;
+                    height: 40px;
+                    transition: 0.5s;
+                    font-size: 20px;
+                    font-weight: 10px;
+                    &:hover{
+                        color: white;
+                        transition: 0.5s;
+                        background-color: rgb(187, 182, 182);
+                        border: none;
+                    }
+                }
+            }
+        }
+
+    }
+}
+

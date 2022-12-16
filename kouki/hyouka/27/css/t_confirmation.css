@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form form .info {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.form form .info .info_name {
+  color: #BECACD;
+  text-align: center;
+}
+
+.form form .info .data {
+  width: 300px;
+  margin-top: 10px;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+
+.form form .button {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.form form .button .register_btn button {
+  margin-top: 20px;
+  color: white;
+  border: none;
+  background-color: #68a0f3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.form form .button .register_btn button:hover {
+  background-color: #bbb6b6;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.form form .button .back_btn button {
+  border: solid 3px #68a0f3;
+  background-color: white;
+  margin-top: 20px;
+  color: #68a0f3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.form form .button .back_btn button:hover {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #bbb6b6;
+  border: none;
+}
+/*# sourceMappingURL=t_confirmation.css.map */

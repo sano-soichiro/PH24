@@ -1,0 +1,29 @@
+@charset 'utf-8';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.sentou{
+    pointer-events: none;
+    text-decoration: none;
+    color: black;
+}
+
+.saigo{
+    pointer-events: none;
+    text-decoration: none;
+    color: black;
+}
+
+.ima{
+    pointer-events: none;
+    text-decoration: none;
+    color: black;
+}
+

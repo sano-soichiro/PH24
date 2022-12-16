@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+}
+
+html body header {
+  height: 8%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px #EAEAEA solid;
+}
+
+html body header #header_logo {
+  height: 100%;
+  width: 210px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+html body header #header_logo p:nth-of-type(1) {
+  width: 50px;
+  height: 47px;
+}
+
+html body header #header_logo p:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+}
+
+html body header #header_logo p:nth-of-type(2) {
+  font-size: 28px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+html body header #user_info {
+  height: 100%;
+  width: 280px;
+  position: absolute;
+  top: 0;
+  right: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+html body header #user_info div {
+  height: 43px;
+  width: 43px;
+  margin-right: 15px;
+}
+
+html body header #user_info div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+html body header #user_info p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+html body header #header_link {
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+html body header #header_link span {
+  padding-left: 5px;
+}
+
+html body header #admin {
+  height: 100%;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+html body header #admin p {
+  padding: 0 10px;
+}
+
+html body header #admin #help {
+  color: black;
+  cursor: pointer;
+}
+
+html body header #admin #help:hover {
+  color: #464646;
+}
+
+html body header #admin #help_msg {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+  color: black;
+  border-radius: 5px;
+  font-family: "Noto Sans JP", sans-serif;
+  border: greenyellow solid 1px;
+  background-color: #e8ffc6;
+  position: absolute;
+  top: 42px;
+  left: 303px;
+  display: none;
+}
+/*# sourceMappingURL=common.css.map */

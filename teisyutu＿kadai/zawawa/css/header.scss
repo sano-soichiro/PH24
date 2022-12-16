@@ -1,0 +1,127 @@
+$mainColor:#F5F5F5;
+$headerColor:#FEFE70;
+$textColor:#3D3D36;
+$lineColor:#707070;
+$subColor: #5F5F26;
+$ts_main: 'Noto Sans JP', sans-serif;
+$ts_eigo: 'Varela Round', sans-serif;
+
+header {
+    background-color: $headerColor;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    #header_logo_wrapper{
+        height: 100%;
+        margin: 3px 15px;
+        display: flex;
+        h1{
+            height: 100%;
+            img{
+                height: 90%;
+            }
+        }
+        #header_logo_text{
+            margin-left: 5px;
+            p:nth-of-type(1){
+                $textColor:#3D3D36;
+                font-size: 12px;
+                font-family: $ts_main;
+                padding-top: 8px;
+            }
+            p:nth-of-type(2){
+                $textColor:#3D3D36;
+                font-size: 35px;
+                font-family: $ts_eigo !important;
+                font-weight: bold;
+                line-height: 22px;
+            }
+        }
+    }
+    p:nth-of-type(1){
+        img{
+            width: 100%;
+            position: absolute;
+            bottom: 3px;
+        }
+    }
+    form{
+        position: relative;
+        width: 100%;
+        height: 40px;
+        margin: 10px 0;
+        input{
+            width: 90%;
+            height: 40px;
+            border-radius: 30px;
+            position: absolute;
+            top: 0;
+            left: 5%;
+            padding: 0 35px 0 17px;
+            box-sizing: border-box;
+            border: $lineColor 2px solid;
+            outline: none;
+        }
+        button{
+            height: 40px;
+            position: absolute;
+            right: 11%;
+            top: 1px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: $textColor;
+        }
+    }
+    ul{
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        li{
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            list-style: none;
+            display: flex;
+            a{
+                text-decoration: none;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i{
+                    font-size: 30px;
+                    padding: 0 9px;
+                    color: $textColor;
+                }
+                span{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: $textColor;
+                }
+                &::after{
+                    content: "";
+                    display: block;
+                    position: absolute ;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    border-bottom:0px solid $subColor;
+                    transition: border-bottom 0.2s linear;
+                } 
+                &:hover:after{
+                    border-bottom:10px solid $subColor;
+                }
+            }
+        }
+    }
+}
+

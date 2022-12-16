@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+#all {
+  width: 100%;
+  margin: 150px 0 0 0;
+  text-align: center;
+}
+
+#all table {
+  width: 70%;
+  margin: 0 auto 30px auto;
+  border-collapse: collapse;
+}
+
+#all table tr td {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#all table .t_head {
+  background-color: #252525;
+  color: white;
+}
+
+#all table .t_head td {
+  font-size: 20px;
+}
+
+#all table .t_bodyk {
+  background-color: #fff;
+}
+
+#all table .t_bodyg {
+  background-color: #f8f8f8;
+}
+
+#all #a {
+  width: 30%;
+  display: flex;
+  margin: 0 auto;
+}
+
+#all #a a {
+  width: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+#all #a .ima {
+  display: block;
+  pointer-events: none;
+  color: #cfcffc;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+#all #a .sentou {
+  padding-right: 20px;
+  pointer-events: none;
+  color: #cfcffc;
+  text-decoration: none;
+}
+
+#all #a .saigo {
+  padding-left: 20px;
+  pointer-events: none;
+  color: #cfcffc;
+  text-decoration: none;
+}
+
+#all #log {
+  display: block;
+  color: #2525d3;
+  text-decoration: none;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+#all{
+    position: relative;
+    width: 100%;
+    margin: 150px 0 0 0;
+    text-align: center;
+    p{
+        margin: 0 0 30px 0;
+    }
+    #fr{
+        width: 500px;
+        height: 350px;
+        margin: 0 auto;
+        padding-top: 20px;
+        background-color: #fff;
+        border-radius: 10px 10px;
+        form{
+            input{
+                width: 300px;
+                margin: 0 0 30px 0;
+            }
+        }
+    }
+    #log{
+        width: 100px;
+        position: absolute;
+        right: 50px;
+        top: -100px;
+        text-decoration: none; 
+        color: black;
+        background-color: #fff;
+        border-radius: 10px 10px;
+    }
+}

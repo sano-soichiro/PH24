@@ -1,0 +1,125 @@
+$main_font :'Noto Sans JP', sans-serif;
+
+main{
+    padding-bottom: 50px;
+    #title_box{
+        width: 1004px;
+        height: 413px;
+        margin: 90px auto;
+        position: relative;
+        border-radius: 18px;
+        font-family: $main_font;
+        color: white;
+        #title_wrapper{
+            width: 800px;
+            height: 250px;
+            position: absolute;
+            left: 80px;
+            top: 50%;
+            transform: translateY(-50%);
+            h1{
+                font-size: 48px;
+                font-weight: 700;
+                padding: 10px 0;
+            }
+            p:nth-of-type(1){
+                font-size: 32px;
+                font-weight: 700;
+                #colon{
+                    display: inline-block;
+                    width: 15px;
+                    text-align: center;
+                }
+            }
+            p:nth-of-type(2){
+                font-size: 14px;
+                font-weight: 200;
+                padding: 15px 0;
+            }
+        }
+        img{
+            width: 303px;
+            height: 256px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 80px;
+        }
+    }
+    
+    .morning{
+        background-color: #1EACE9;
+    }
+    .noon{
+        background-color: #FFAA00;
+    }
+    .night{
+        background-color: #0B0B4A;
+    }
+
+    //===============================
+    //「News」の文字
+    //===============================
+    h2{
+        font-family: $main_font;
+        font-size: 40px;
+        font-weight: 500;
+        border-bottom: 4px solid black;
+        width: 115px;
+        text-align: center;
+        margin: 0 auto 50px auto;
+    }
+
+    //===============================
+    //ニュースの一覧
+    //===============================
+
+    table{
+        width: 1004px;
+        margin: 0 auto 40px auto;
+        tr{
+            border: solid 1px #F1F1F1;
+            display: flex;
+            border-radius: 6px;
+            width: 100%;
+            height: 62px;
+            box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.16);
+            margin: 14px 0;
+            position: relative;
+            td:nth-of-type(1){
+                height: 100%;
+                display: flex;
+                align-items: center;
+                padding-left: 50px;
+            }
+            td:nth-of-type(2){
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 200px;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            td:nth-of-type(3){
+                height: 100%;
+                display: none;
+                align-items: center;
+                position: absolute;
+                top:0;
+                right: 50px;
+                color: #CDCDCD;
+                font-family: $main_font;
+                font-weight: 500;
+            }
+        }
+    }
+}

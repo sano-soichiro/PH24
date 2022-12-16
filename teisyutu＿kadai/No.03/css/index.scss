@@ -1,0 +1,60 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#center{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 20px;
+}
+
+#c_p{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.head_p{
+    margin: 30px 0 0 0;
+}
+
+#center form input{
+    width: 300px;
+    height: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+#button{
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#button button{
+    width: 100px;
+    height: 30px;
+    background: rgb(9, 137, 146);
+    border-radius: 7px;
+    color: white;
+}
+
+#upload{
+    border-radius: 0px 0px 0px;
+}

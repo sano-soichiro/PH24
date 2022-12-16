@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    margin-bottom: 300px;
+    border-bottom: black 4px solid;
+    .title_info{
+        display: flex;
+        justify-content: center;
+    }
+}

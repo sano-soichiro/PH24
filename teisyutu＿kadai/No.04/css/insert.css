@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #272727;
+}
+
+#all {
+  width: 100%;
+  position: relative;
+}
+
+#all h1 {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+}
+
+#all table {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #444444;
+  box-shadow: 10px 10px black;
+}
+
+#all table tr td {
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-left: 20px;
+}
+
+#all table tr td input {
+  width: 300px;
+}
+
+#all table tr .head {
+  font-size: 25px;
+}
+
+#all .regi_btn {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: -65px;
+  left: 550px;
+  background-color: #616161;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#all .regi_btn:hover {
+  color: black;
+  border: black solid 2px;
+  background: white;
+  transition-duration: 0.5s;
+}
+
+#all .no_regi_btn {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: -65px;
+  left: 800px;
+  border: #ad0d0d;
+  border-style: outset;
+  background-color: #ad0d0d;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#all .no_regi_btn:hover {
+  color: black;
+  border: black solid 2px;
+  background: white;
+  transition-duration: 0.5s;
+}
+/*# sourceMappingURL=insert.css.map */

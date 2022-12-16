@@ -1,0 +1,60 @@
+main {
+  height: 92%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+main #left_box {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 20px 70px;
+}
+
+main #left_box h1 {
+  font-size: 48px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main #left_box .title_msg {
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+main #left_box .title_msg span {
+  font-weight: bold;
+}
+
+main #left_box #mail_contents {
+  display: none;
+}
+
+main #left_box #show_link {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  cursor: pointer;
+  color: blue;
+}
+
+main #left_box #show_link:hover {
+  color: #8383ff;
+  text-decoration-color: #8383ff;
+}
+
+main #right_box {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-image: url(./../images/background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+main .padding_b_40 {
+  padding-bottom: 40px;
+}
+/*# sourceMappingURL=2column_layout.css.map */

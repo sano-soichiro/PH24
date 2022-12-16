@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAA;EACG,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,IAAI,CAAA;EACA,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAkB;CAQvC;;AAVD,AAGI,IAHA,CAGA,IAAI,CAAA;EACA,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK;CAIhB;;AATL,AAMQ,IANJ,CAGA,IAAI,CAGA,CAAC,CAAA;EACG,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "complate.scss"
+    ],
+    "names": [],
+    "file": "complate.css"
+}

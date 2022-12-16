@@ -1,0 +1,52 @@
+$main_font :'Noto Sans JP', sans-serif;
+
+main{
+    height: 92%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    #left_box{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 20px 70px;
+        h1{
+            font-size: 48px;
+            font-family: $main_font;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .title_msg{
+            font-size: 14px;
+            font-family: $main_font;
+            font-weight: 300;
+            margin-bottom: 30px;
+            span{
+                font-weight: bold;
+            }
+        }
+        #mail_contents{
+            display: none;
+        }
+        #show_link{
+            text-decoration: underline;
+            text-decoration-color: blue;
+            cursor: pointer;
+            color: blue;
+            &:hover{
+                color: rgb(131, 131, 255);
+                text-decoration-color: rgb(131, 131, 255);
+            }
+        }
+    }
+    #right_box{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(./../images/background.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .padding_b_40{
+        padding-bottom: 40px;
+    }
+}

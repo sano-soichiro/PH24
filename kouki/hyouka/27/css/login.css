@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.error {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error .e_msg {
+  color: #f54545;
+  height: 30px;
+  font-size: 15px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form form .info {
+  margin-bottom: 40px;
+}
+
+.form form .info .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form form .info .title .info_name {
+  color: #888888;
+}
+
+.form form .info .title .err {
+  height: 30px;
+  color: #f54545;
+  font-size: 12px;
+}
+
+.form form .info input {
+  font-size: 16px;
+  margin-top: 10px;
+  width: 500px;
+  height: 20px;
+  border-color: #000;
+  border-width: 0 0 2px 0;
+}
+
+.form form .info input:focus {
+  outline: none;
+  border-color: #68a0f3;
+}
+
+.form form .btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form form .btn button {
+  margin-top: 20px;
+  color: white;
+  border: none;
+  background-color: #68a0f3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.form form .btn button:hover {
+  border: solid 3px #68a0f3;
+  background-color: white;
+  color: #68a0f3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=login.css.map */

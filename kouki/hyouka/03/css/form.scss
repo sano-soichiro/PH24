@@ -1,0 +1,152 @@
+$main_font :'Noto Sans JP', sans-serif;
+
+form{
+    .input_contents{
+        width: 498px;
+        height: 53px;
+        position: relative;
+        .form_title{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 30px;
+            font-size: 16px!important;
+            color: #5F6368;
+            transition: 0.2s;
+            z-index: -1;
+        }
+        .form_title_active{
+            position: absolute;
+            top: -10px;
+            left: 25px;
+            font-size: 12px!important;
+            padding: 0 6px;
+            background-color: white;
+            transition: 0.2s;
+            color: #0768E6;
+        }
+        .input_area{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            border-radius: 9px;
+            border: 1px solid #DADCE0;
+            padding: 0 20px;
+            font-size: 18px;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0);
+            &:focus{
+                border: 1px solid #0768E6;
+                background-color: white;
+            }
+        }
+    }
+    .form_button{
+        width: 498px;
+        height: 46px;
+        border: none;
+        background-color: #FD6141;
+        color: white;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin-top: 15px;
+        &:hover{
+            background-color: #d15036;
+        }
+    }
+    .form_button_sub{
+        width: 498px;
+        height: 46px;
+        border: none;
+        background-color: #666666;
+        color: white;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin-top: 5px;
+        &:hover{
+            background-color: #4b4b4b;
+        }
+    }
+    .error{
+        color: #FF0000;
+        font-size: 10px;
+        height: 10px;
+        margin: 3px 0 16px 0;
+    }
+    //画像ファイルインプット
+    .input_file{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .input_img_display{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+            #display_img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+        input[type="file"]{
+            display: none;
+        }
+        .input_file_title{
+            height: 34px;
+            width: 176px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: #1A73E8;
+            border-radius: 5px;
+            &:hover{
+                background-color: #5999ee;
+            }
+        }
+        .selected_file{
+            height: 35px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0 0 15px;
+            font-family: $main_font;
+            font-weight: 300;
+        }
+    }
+}
+
+.confirm_box{
+    .confirm_title{
+        font-size: 14px;
+        font-family: $main_font;
+        font-weight: 300;
+    }
+    .confirm_value{
+        font-size: 24px;
+        font-family: $main_font;
+        font-weight: 500;
+    }
+}
+
+.confirm_box:nth-of-type(4){
+    margin-bottom: 40px;
+}

@@ -1,0 +1,123 @@
+﻿@charset "utf-8";
+
+header{
+    height: 30px;
+    width: 100%;
+    background-color: #7E1B1E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#logo_img{
+    margin: 6px 0;
+    text-align: center;
+}
+
+#contents_1{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+    height: 470px;
+    padding: 10px;
+}
+
+.message_boxes{
+    border-collapse: collapse; /* 子要素の隣接する境界線結合して表示します */
+}
+
+.message_box{
+    border:solid rgb(161, 149, 149) 3px;
+    border-radius: 3px;
+    height: 80px;
+    width: 600px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.button{
+    margin-bottom: 10px;
+}
+
+.button a{
+    display: block;
+    background-color: #7E1B1E;
+    color: white;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.button a:hover{
+    background-color:#501113;
+    color: rgb(189, 189, 189);
+}
+
+.checked{
+    margin: 0 5px;
+    background-color: #501113;
+    display: block;
+    color:(184,184,184);
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;   
+    text-align: center;
+    line-height: 30px;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.unchecked{
+    background-color: #7E1B1E;
+    color: white;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.unchecked:hover{
+    background-color: #501113;
+}
+
+#pager{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #7E1B1E;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}

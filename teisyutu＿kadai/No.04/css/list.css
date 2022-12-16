@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #272727;
+}
+
+#body {
+  width: 100%;
+}
+
+#logo {
+  padding-top: 50px;
+}
+
+#logo h1 {
+  color: white;
+  text-align: center;
+}
+
+#body {
+  position: relative;
+}
+
+#body #any_msg {
+  position: absolute;
+  background-color: #fff;
+  width: 400px;
+  top: 60px;
+  left: -60px;
+  transform: rotate(-30deg);
+}
+
+#body #any_msg h2 {
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+}
+
+#body #any_msg_no h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.search {
+  width: 500px;
+  height: 40px;
+  margin: 60px auto;
+  background: #444;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.search input {
+  width: 370px;
+  padding: 10px 5px;
+  float: left;
+  color: #ccc;
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+
+.search input:focus {
+  outline: 0;
+  background: transparent;
+}
+
+.search button {
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+  border-radius: 0 3px 3px 0;
+}
+
+.search button:hover {
+  background: #fff;
+  color: #444;
+}
+
+.search button:active {
+  box-shadow: 0px 0px 12px 0px #e1e1e1;
+}
+
+.search button:focus {
+  outline: 0;
+}
+
+#all {
+  width: 100%;
+}
+
+#all #table {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#all #table table {
+  border-collapse: collapse;
+  background-color: #444444;
+  box-shadow: 10px 10px black;
+}
+
+#all #table table .t_head {
+  border: 2px solid black;
+  border-radius: 50px 50px 0px 0px;
+}
+
+#all #table table .t_head td {
+  background-color: white;
+  width: 500px;
+  height: 20px;
+  color: black;
+  margin: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#all #table table .t_head td button {
+  border: none;
+  background-color: white;
+}
+
+#all #table table tr {
+  border-bottom: solid 1px #616161;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#all #table table tr td {
+  width: 500px;
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#all #table table tr td a {
+  text-decoration: none;
+  color: white;
+}
+
+#all #table table tr td img {
+  width: 120px;
+  height: auto;
+}
+
+#all #table h2 {
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+}
+
+#all .insert_btn {
+  width: 130px;
+  height: 50px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background-color: #616161;
+  color: white;
+}
+
+#all .insert_btn:hover {
+  color: black;
+  border: black solid 2px;
+  background: white;
+  transition-duration: 0.5s;
+}
+
+#all .down_btn {
+  width: 130px;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  background-color: #616161;
+  color: white;
+}
+
+#all .down_btn:hover {
+  color: black;
+  border: black solid 2px;
+  background: white;
+  transition-duration: 0.5s;
+}
+/*# sourceMappingURL=list.css.map */

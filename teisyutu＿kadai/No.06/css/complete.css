@@ -1,0 +1,33 @@
+@charset 'utf-8';
+
+body{
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#all h1{
+    text-align: center;
+}
+
+#all form button{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 680px;
+    background-color: #616161;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#all form button:hover{
+    color: black;
+    border: black solid 2px;
+    background: white;
+    transition-duration: 0.5s;
+}

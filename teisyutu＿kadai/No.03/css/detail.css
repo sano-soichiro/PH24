@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#comp_table tr td {
+  width: 80px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#comp_table tr td img {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+
+#comp_table tr .td_left {
+  border: 1px solid black;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #754d4d;
+}
+
+#comp_table tr .td_right {
+  border: 1px solid black;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#target {
+  z-index: 100;
+  position: fixed;
+  right: 10%;
+  bottom: 3%;
+  background-color: #afafaf;
+  width: 100px;
+  height: 50px;
+  border: black 1px solid;
+  border-radius: 20px 20px;
+}
+
+#target a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  margin: auto auto;
+  text-align: center;
+}
+/*# sourceMappingURL=detail.css.map */

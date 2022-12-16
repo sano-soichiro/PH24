@@ -1,0 +1,135 @@
+@charset 'utf-8';
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-family: 'Kiwi Maru', serif;
+}
+
+#main{
+    width: 50%;
+    padding: 20px;
+    margin: 150px auto;
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+}
+
+#main #search_box{
+    width: 100%;
+    margin: 0 0 50px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main #search_box h2{
+    font-size: 30px;
+}
+
+#main #search_box #search{
+    width: 70%;
+    margin: 0 0 0 40px;
+}
+
+button.btn--orange{
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+}
+
+  button.btn--orange:hover{
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+}
+
+button.btn--shadow{
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+#main #search_box #search input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#main #search_box #search button{
+
+}
+
+#main #table_box{
+    width: 100%;
+}
+
+#main #table_box #table table tr td{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+}
+
+#main #table_box #table table #head{
+    width: 100%;
+    margin: 0 0 20px 0;
+    background-color: rgb(233, 233, 233);
+}
+
+#main #table_box #table table tr #name{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
